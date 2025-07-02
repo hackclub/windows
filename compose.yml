@@ -12,3 +12,5 @@ services:
       - ./windows:/storage
     restart: always
     stop_grace_period: 2m
+    labels:
+      - 'traefik.http.middlewares.mybasicauth.basicauth.users=orpheus:$2y$05$3S79wq1BzC0.WN0i0Miv2eQ5eeyvn1KKWmbZHTFdjfEO48AmdGnx2'
