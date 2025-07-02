@@ -13,4 +13,4 @@ services:
     restart: always
     stop_grace_period: 2m
     labels:
-      - 'traefik.http.middlewares.mybasicauth.basicauth.users=orpheus:$2y$05$3S79wq1BzC0.WN0i0Miv2eQ5eeyvn1KKWmbZHTFdjfEO48AmdGnx2'
+      - 'traefik.http.middlewares.mybasicauth.basicauth.users=orpheus:$2y$05$Nn4jA/SiCf.T3Bxy93rAqe1vXm.lkPLYoGaDaJrDIaOR2XZ4TzE0q'
